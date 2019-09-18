@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="파서">
+      <UniqueIdentifier>{9e7e1120-5228-4b81-889a-d40e42266211}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PLAY1945.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Play.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Manager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet_Manager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Special.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>파서</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PLAY1945.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Play.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Manager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet_Manager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Special.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Manager_Shoot_Pattern.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>파서</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PLAY1945.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="PLAY1945.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\UNIT1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\UNIT2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\UNIT3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\Enemy_Bullet.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\USER1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\GAME_START.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\HELP.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\QUIT.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\SELECT.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\KEY_HELP.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\BOSS1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\BOSS2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\BOSS3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\BOSS4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\BOSS5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\STAGE1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\STAGE2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\STAGE3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\STAGE4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\GAME_CLEAR.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\life_imo.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\bomb.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\bg.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\NUMBER.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\User_Bullet.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\USER_INVINCIBLE.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\GAME_OVER.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\CRASH_EFFECT.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\ENEMY_EXPLOSION.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\HEART.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\POWER_UP.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\SKILL.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\BOMB_MOTION.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\EXPLOSION.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\STAGE5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\BOSS_EXPLOSION.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UI\MISSION_CLEAR.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

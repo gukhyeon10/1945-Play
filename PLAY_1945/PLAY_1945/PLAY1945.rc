@@ -1,0 +1,223 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_PLAY1945            ICON                    "PLAY1945.ico"
+
+IDI_SMALL               ICON                    "small.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_PLAY1945 ACCELERATORS
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PLAY_1945"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "PLAY_1945, 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2018",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "",IDOK,113,41,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_UNIT1               BITMAP                  "UI\\UNIT1.bmp"
+
+IDB_UNIT2               BITMAP                  "UI\\UNIT2.bmp"
+
+IDB_UNIT3               BITMAP                  "UI\\UNIT3.bmp"
+
+IDB_ENEMY_BULLET        BITMAP                  "UI\\Enemy_Bullet.bmp"
+
+IDB_START_IMAGE         BITMAP                  "UI\\bg.bmp"
+
+IDB_USER1               BITMAP                  "UI\\USER1.bmp"
+
+IDB_GAME_START          BITMAP                  "UI\\GAME_START.bmp"
+
+IDB_HELP                BITMAP                  "UI\\HELP.bmp"
+
+IDB_QUIT                BITMAP                  "UI\\QUIT.bmp"
+
+IDB_SELECT_POINTER      BITMAP                  "UI\\SELECT.bmp"
+
+IDB_KEY_HELP            BITMAP                  "UI\\KEY_HELP.bmp"
+
+IDB_BOSS1               BITMAP                  "UI\\BOSS1.bmp"
+
+IDB_BOSS2               BITMAP                  "UI\\BOSS2.bmp"
+
+IDB_BOSS3               BITMAP                  "UI\\BOSS3.bmp"
+
+IDB_BOSS4               BITMAP                  "UI\\BOSS4.bmp"
+
+IDB_BOSS5               BITMAP                  "UI\\BOSS5.bmp"
+
+IDB_STAGE1              BITMAP                  "UI\\STAGE1.bmp"
+
+IDB_STAGE2              BITMAP                  "UI\\STAGE2.bmp"
+
+IDB_STAGE3              BITMAP                  "UI\\STAGE3.bmp"
+
+IDB_STAGE4              BITMAP                  "UI\\STAGE4.bmp"
+
+IDB_GAME_CLEAR          BITMAP                  "UI\\GAME_CLEAR.bmp"
+
+IDB_LIFE_ICO            BITMAP                  "UI\\life_imo.bmp"
+
+IDB_BOMB_ICO            BITMAP                  "UI\\bomb.bmp"
+
+IDB_NUMBER              BITMAP                  "UI\\NUMBER.bmp"
+
+IDB_USER_BULLET         BITMAP                  "UI\\User_Bullet.bmp"
+
+IDB_USER_INVINCIBLE     BITMAP                  "UI\\USER_INVINCIBLE.bmp"
+
+IDB_GAME_OVER           BITMAP                  "UI\\GAME_OVER.bmp"
+
+IDB_CRASH_EFFECT        BITMAP                  "UI\\CRASH_EFFECT.bmp"
+
+IDB_EXPLOSION_EFFECT    BITMAP                  "UI\\ENEMY_EXPLOSION.bmp"
+
+IDB_HEART               BITMAP                  "UI\\HEART.bmp"
+
+IDB_POWER_UP            BITMAP                  "UI\\POWER_UP.bmp"
+
+IDB_BOMB                BITMAP                  "UI\\SKILL.bmp"
+
+IDB_BOMB_MOTION         BITMAP                  "UI\\BOMB_MOTION.bmp"
+
+IDB_EXPLOSION           BITMAP                  "UI\\EXPLOSION.bmp"
+
+IDB_STAGE5              BITMAP                  "UI\\STAGE5.bmp"
+
+IDB_BOSS_EXPLOSION      BITMAP                  "UI\\BOSS_EXPLOSION.bmp"
+
+IDB_MISSION_CLEAR             BITMAP                  "UI\\MISSION_CLEAR.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_APP_TITLE           "PLAY_1945"
+    IDC_PLAY1945            "PLAY1945"
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PLAY_1945", "PLAY_1945\PLAY_1945.vcxproj", "{1C8546E1-5EF2-4801-A06F-2323F5F195EC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "API1945", "API1945\API1945.vdproj", "{4BE74719-1933-4A00-8F4F-818DA0100B6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C8546E1-5EF2-4801-A06F-2323F5F195EC}.Debug|x64.ActiveCfg = Debug|x64
+		{1C8546E1-5EF2-4801-A06F-2323F5F195EC}.Debug|x64.Build.0 = Debug|x64
+		{1C8546E1-5EF2-4801-A06F-2323F5F195EC}.Debug|x86.ActiveCfg = Debug|Win32
+		{1C8546E1-5EF2-4801-A06F-2323F5F195EC}.Debug|x86.Build.0 = Debug|Win32
+		{1C8546E1-5EF2-4801-A06F-2323F5F195EC}.Release|x64.ActiveCfg = Release|x64
+		{1C8546E1-5EF2-4801-A06F-2323F5F195EC}.Release|x64.Build.0 = Release|x64
+		{1C8546E1-5EF2-4801-A06F-2323F5F195EC}.Release|x86.ActiveCfg = Release|Win32
+		{1C8546E1-5EF2-4801-A06F-2323F5F195EC}.Release|x86.Build.0 = Release|Win32
+		{4BE74719-1933-4A00-8F4F-818DA0100B6C}.Debug|x64.ActiveCfg = Debug
+		{4BE74719-1933-4A00-8F4F-818DA0100B6C}.Debug|x86.ActiveCfg = Debug
+		{4BE74719-1933-4A00-8F4F-818DA0100B6C}.Release|x64.ActiveCfg = Release
+		{4BE74719-1933-4A00-8F4F-818DA0100B6C}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6343B3E-9961-49B5-95A9-7D72D8A0CC48}
+	EndGlobalSection
+EndGlobal
